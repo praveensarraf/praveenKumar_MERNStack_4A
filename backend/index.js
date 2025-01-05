@@ -14,7 +14,7 @@ const _dirname = path.resolve();
 // Middleware
 app.use(express.json());
 const corsOptions = {
-  origin: 'https://todolist-e1fy.onrender.com',
+  origin: 'https://todolist-96e4.onrender.com',
   credentials: true,
 };
 app.use(cors(corsOptions));
